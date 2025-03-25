@@ -9,7 +9,7 @@ function mincost(arr)
 		cost += sum
 		arr.slice(0,2).concat(sum).sort((a,b) => a-b);
 	}
-	return sum
+	return cost
 }
 
 module.exports=mincost;
